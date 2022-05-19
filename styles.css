@@ -225,17 +225,15 @@ padding:2;}
   width: 260px;
   border-radius: 20%;
   transition: 400ms;}
-  
-  .parallax {
-  background-image: url("course.jpg");
 
+  .parallax {
   min-height: 500px;
-     max-width:100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -244,7 +242,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 5px solid #777;
 }
 
 div.gallery img {
@@ -274,3 +272,20 @@ h4{font-size:25px; font-weight: 500;
   border-radius: 5px;
 }
 .btn:hover {background: black;  color: white;}
+
+
+ 
+ .foot-list {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+ .foot-item{
+  margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+    font-size: 10;
+
+  color: black;}
